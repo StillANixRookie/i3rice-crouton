@@ -1,5 +1,7 @@
 # i3rice-crouton
 
+i3 rice for muh Chromebook Pixel 2013 using `crouton`
+
 ## Scrots
 
 ![Workspace 1](ws1.png "Workspace 1")
