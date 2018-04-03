@@ -2,13 +2,13 @@
 
 ## Scrots
 
-![](~/Pictures/ScreenShots/2018-04-03_01:05:49.png "Workspace 1")
+![](2018-04-03_01:05:49.png "Workspace 1")
 
-![](~/Pictures/ScreenShots/2018-04-03_01:05:53.png "Workspace 2")
+![](2018-04-03_01:05:53.png "Workspace 2")
 
-![](~/Pictures/ScreenShots/2018-04-03_01:05:57.png "Workspace 3")
+![](2018-04-03_01:05:57.png "Workspace 3")
 
-![](~/Pictures/ScreenShots/2018-04-03_01:06:01.png "Workspace 4")
+![](2018-04-03_01:06:01.png "Workspace 4")
 
 ## First
 
