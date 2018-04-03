@@ -254,6 +254,9 @@ bindsym $mod+q exec $term --title="Calculator" -e R
 # EMAIL
 bindsym $mod+Shift+u exec $browser --new-window --app=https://outlook.office365.com/owa/?realm=soton.ac.uk
 
+# SCROT SCREENSHOT
+bindsym $mod+Shift+p exec scrot ~/Pictures/ScreenShots/`date +%Y-%m-%d_%H:%M:%S`.png
+
 # OPEN ~/.i3/CONFIG
 bindsym $mod+Shift+Escape exec --no-startup-id $term -e vim ~/.config/i3/config
 
