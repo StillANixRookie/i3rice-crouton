@@ -2,13 +2,13 @@
 
 ## Scrots
 
-![](2018-04-03_01:05:49.png "Workspace 1")
+![Workspace 1](ws1.png "Workspace 1")
 
-![](2018-04-03_01:05:53.png "Workspace 2")
+![Workspace 2](ws2.png "Workspace 2")
 
-![](2018-04-03_01:05:57.png "Workspace 3")
+![Workspace 3](ws3.png "Workspace 3")
 
-![](2018-04-03_01:06:01.png "Workspace 4")
+![Workspace 4](ws4.png "Workspace 4")
 
 ## First
 
