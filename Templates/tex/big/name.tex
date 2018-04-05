@@ -3,8 +3,9 @@
 % Comment the following line to NOT allow the usage of umlauts
 \usepackage[utf8]{inputenc}
 
-% PAGE STUFF %
-%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% PAGE STUFF
+
 \usepackage{multicol}
 %\usepackage[top=2cm,bottom=2cm,left=3.8cm,right=1.9cm]{geometry}
 \usepackage[margin=1in]{geometry}
@@ -12,9 +13,11 @@
 %\setlength{\parskip}{1em}
 %\renewcommand{\baselinestretch}{1.25}
 
-% FONT STUFF %
-%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% FONT STUFF
+
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{times}
 %\usepackage{sectsty}
 %\sectionfont{\centering \sc \color{NavyBlue}}
 %\subsectionfont{ \color{RoyalBlue}}
@@ -36,8 +39,9 @@
 {1em}
 {}
 
-% GRAPHICS %
-%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% GRAPHICS
+
 \usepackage[pdftex]{graphicx}
 \usepackage{float}
 \usepackage{wrapfig}
@@ -47,19 +51,21 @@
 \counterwithin{figure}{section}
 \counterwithin{table}{section}
 
-% TABLES %
-%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% TABLES
+
 \usepackage[none]{hyphenat} % stops breaking up words in table
 \usepackage{array}
 
-% HEADER and FOOTER %
-%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% HEADER & FOOTER
+
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
 %\fancyhead[RO,LE]{\small\thepage}
-%\fancyhead[LO]{\small [Module Code]: [Module Name]}% odd page header and number to right top
-%\fancyhead[RE]{\small Vales, G., \textit{[TitleSubtitleETC]}}%Even page header and number at left top
+%\fancyhead[LO]{\small [Module Code]: [Module Name]}% odd page
+%\fancyhead[RE]{\small Vales, G., \textit{[TitleSubtitleETC]}}%Even page
 %\fancyfoot[L,R,C]{}
 \lhead{\color{Grey} [Module Code]: [Module Name]}
 \rhead{\color{Grey} [TitleSubtitleETC]}
@@ -67,39 +73,45 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% BIBLIOGRAPHY %
-%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% BIBLIOGRAPHY
+
 \usepackage[backend=biber,style=authoryear,natbib=true,maxcitenames=1]{biblatex}
 \addbibresource{[name].bib}
 
-% CLICKABLE REFERENCES %
-%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% CLICKABLE REFERENCES
+
 \usepackage[hidelinks]{hyperref} % Allows for clickable references
 
-% MAKING A TABLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% MAKING A TABLE
+
 %\begin{table}[H]
 %    \centering
 %    \label{tab:table name}
-%    \begin{tabular}{l c r} % can also specify cell dimensions eg. p{1in} instead of l c r
+%    \begin{tabular}{l c r} % can also specify cell dimensions eg. p{1in}
 %        \bfseries{Date} & \bfseries{Number} & \bfseries{Letter} \\ \hline
 %        April 26 & 1 & A \\
 %        June 7 & 2 & B \\
 %        June 20 & 3 & C \\
 %    \end{tabular}
-%    \caption[this is the optional caption without reference]{local caption with reference}
+%    \caption{local caption with reference}
 %\end{table}
 
-% INSERTING A FIGURE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% INSERTING A FIGURE
+
 %\begin{figure}[H]
 %    \centering
 %    \includegraphics[scale= ]{filelocation}
-%    \caption[Optional caption]{Real, local caption} % optional caption appears in table of figures
+%    \caption{Real, local caption}
 %    \label{fig:figurename}
 %\end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BEGIN DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BEGIN DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
@@ -113,7 +125,8 @@
 {\Large \textsc{[ModuleCode] [ModuleName]}}\\
 [5em]
 
-%Project Logo
+%%% Project Logo
+
 \begin{figure}[H]
     \centering
     \includegraphics[height=2.5in]{logo}
@@ -141,7 +154,6 @@ Gavin Vales\\
 \end{titlepage}
 
 \tableofcontents
-%\thispagestyle{empty}
 \newpage
 
 \section{Section}

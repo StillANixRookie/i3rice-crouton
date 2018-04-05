@@ -1,9 +1,9 @@
 \documentclass[a4paper]{article}
-% Comment the following line to NOT allow the usage of umlauts
 \usepackage[utf8]{inputenc}
 
-% PAGE FORMATTING %
-%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% PAGE FORMATTING
+
 \setlength{\columnsep}{0.25in}
 \usepackage[margin=1in]{geometry}
 \setlength{\parindent}{2em}
@@ -11,9 +11,11 @@
 \renewcommand{\baselinestretch}{1.25}
 %\setcounter{page}{1}
 
-% FONT FORMATTING %
-%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% FONT FORMATTING
+
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{times}
 %\usepackage{sectsty}
 %\sectionfont{\centering \sc \color{NavyBlue}}
 %\subsectionfont{ \color{RoyalBlue}}
@@ -35,8 +37,9 @@
 {1em}
 {}
 
-% GRAPHICS %
-%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% GRAPHICS
+
 \usepackage[pdftex]{graphicx}
 \usepackage{float} % allows for control of float positions
 \usepackage{wrapfig}
@@ -44,13 +47,15 @@
 \usepackage{subcaption}
 \usepackage{chngcntr}
 
-% TABLES %
-%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% TABLES
+
 \usepackage[none]{hyphenat} % stops breaking up words in table
 \usepackage{array}
 
-% HEADER and FOOTER %
-%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% HEADER & FOOTER
+
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
@@ -60,16 +65,20 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% BIBLIOGRAPHY %
-%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% BIBLIOGRAPHY %
+
 \usepackage[backend=biber]{biblatex}
 \addbibresource{[name].bib}
 
-% CLICKABLE REFERENCES %
-%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% CLICKABLE REFERENCES %
+
 \usepackage[hidelinks]{hyperref} % Allows for clickable references
 
-% MAKING A TABLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% MAKING A TABLE
+
 %\begin{table}[H]
 %    \centering
 %    \label{tab:table name}
@@ -82,7 +91,9 @@
 %    \caption[this is the optional caption without reference]{local caption with reference}
 %\end{table}
 
-% INSERTING A FIGURE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% INSERTING A FIGURE
+
 %\begin{figure}[H]
 %    \centering
 %    \includegraphics[scale= ]{filelocation}
@@ -90,16 +101,15 @@
 %    \label{fig:figurename}
 %\end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BEGIN DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BEGIN DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
 \begin{center}
 
 \hfill\\
-\rule{\textwidth}{1pt}\\
 [1em]
 {\huge {\color{RoyalBlue} \textsc{[Report Title]}}}\\
 [0.25em]
@@ -107,12 +117,10 @@
 [1em]
 {\Large {\color{NavyBlue} [ALL CAPS MODULE NAME]}}\\
 [0.25em]
-\rule{0.75\textwidth}{1pt}
 \end{center}
 
 
 \tableofcontents
-%\thispagestyle{empty}
 \cleardoublepage
 
 \section{Section}

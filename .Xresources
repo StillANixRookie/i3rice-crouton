@@ -169,12 +169,11 @@ URxvt*perl-ext-common:		matcher,clipboard,resize-font
 URxvt*perl-lib:			/home/gouton/urxvt_ext
 URxvt*url-launcher:		/usr/bin/google-chrome-stable
 URxvt*matcher.button:		1
-URxvt*keysym.C-c:		perl:clipboard:copy
-URxvt*keysym.C-v:		perl:clipboard:paste
-URxvt*keysym.C-A-v:		perl:clipboard:paste_escaped
-URxvt.keysym.C-i:		resize-font:smaller
-URxvt.keysym.C-u:		resize-font:bigger
-URxvt.keysym.C-y:		resize-font:reset
+URxvt*keysym.C-y:		perl:clipboard:copy
+URxvt*keysym.C-a:		perl:clipboard:paste
+URxvt.keysym.C-I:		resize-font:smaller
+URxvt.keysym.C-U:		resize-font:bigger
+URxvt.keysym.C-Y:		resize-font:reset
 ! URxvt*termName:                  string
 ! URxvt*geometry:                  geometry
 ! URxvt*chdir:                     string
