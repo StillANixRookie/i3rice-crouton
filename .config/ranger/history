@@ -1,4 +1,5 @@
 open_with feh
+delete
 mkdir ScreenShots
 mkdir drak
 mkdir Videos
@@ -7,5 +8,3 @@ mkdir Music
 open_with mplayer
 open_with 
 rename stefsax - Awel.mp3
-delete
-shell grive

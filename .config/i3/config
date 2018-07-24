@@ -259,7 +259,10 @@ bindsym $mod+Shift+u exec $browser --new-window --app=\
 	https://outlook.office365.com/owa/?realm=soton.ac.uk
 
 # SCROT SCREENSHOT
-bindsym $mod+Shift+p exec scrot ~/Pictures/ScreenShots/`date +%Y-%m-%d_%H:%M:%S`.png
+bindsym $mod+Shift+p exec "scrot ~/Pictures/ScreenShots/`date +%Y-%m-%d_%H:%M:%S`.png; exec notify-send 'Screenshot saved in ~/Pictures/ScreenShots'"
 
 # OPEN ~/.i3/CONFIG
 bindsym $mod+Shift+Escape exec --no-startup-id $term -e vim ~/.config/i3/config
+
+# DUNST RESTART
+bindsym $mod+Shift+d exec "killall dunst; bash dunstthemeupdate; exec notify-send 'Dunst has been restarted.'"
