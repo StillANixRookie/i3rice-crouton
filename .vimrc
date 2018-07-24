@@ -43,7 +43,7 @@ set splitright
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ Distraction-free mode with Goyo!
 
-map <F11> :Goyo<bar>hi<space>Normal<space>ctermbg=none<space>guibg=black<bar>
+map <F5> :Goyo<bar>hi<space>Normal<space>ctermbg=none<space>guibg=black<bar>
 	\hi<space>LineNr<space>ctermbg=none<space>ctermfg=grey<bar>
 	\hi<space>Folded<space>ctermfg=grey<space>ctermbg=none<bar>
 	\hi<space>ModeMsg<space>cterm=bold<space>ctermfg=white<bar>

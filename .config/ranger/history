@@ -1,11 +1,11 @@
-shell sudo make uninstall
-shell grive
-shell mupdf %s
+open_with feh
+mkdir ScreenShots
+mkdir drak
+mkdir Videos
+mkdir Documents
+mkdir Music
+open_with mplayer
+open_with 
+rename stefsax - Awel.mp3
 delete
-rename papirus-icon-theme-20180401.tar.xz
-shell tar -xvzf %f
-shell tar -xvzf %s
-shell tar -xvzf papirus-icon-theme-20180401.tar.xz
-shell tar -xvzf capitaine-cursors-r2.1.tar.gz
-shell  %s
-rename i3rice-crouton
+shell grive

@@ -11,7 +11,7 @@ set $term urxvt
 
 set $browser google-chrome-stable
 
-set_from_resource $black	color0
+set_from_resource $black	color8
 set_from_resource $red		color1
 set_from_resource $green	color2
 set_from_resource $yellow	color3
@@ -57,7 +57,7 @@ new_float normal
 hide_edge_borders none
 
 # MAIN FONT
-font pango:CMU Bright Bold 13
+font pango:CMU Bright Bold 16
 #font pango:DejaVu Sans Mono 13
 
 # MOUSE+$MOD DRAGS FLOATERS
@@ -176,8 +176,8 @@ bar {
 	background $black
 
 	#		   border  backgr. text
-	focused_workspace  $cyan $cyan $black
-	active_workspace   $cyan $cyan $black
+	focused_workspace  $blue $blue $black
+	active_workspace   $blue $blue $black
 	inactive_workspace $black $black $white
 	binding_mode       $yellow $yellow $black
 	urgent_workspace   $red $red $black
@@ -191,8 +191,8 @@ bindsym $mod+b bar mode toggle
 #############################################################################
 ### FOR GAPS
 
-gaps inner 40
-gaps outer 0
+gaps inner 10
+gaps outer 50
 
 bindsym $mod+Ctrl+u gaps inner current minus 5
 bindsym $mod+Ctrl+i gaps inner current plus 5

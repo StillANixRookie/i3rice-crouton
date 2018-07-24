@@ -1,5 +1,23 @@
 !!colors
 
+!pywal
+#define blackl		#02020d
+#define blackd		#6d8b8f
+#define redl		#70847c
+#define redd		#a45b55
+#define greenl		#cda16e
+#define greend		#70847c
+#define yellowl		#306b8b
+#define yellowd 	#cda16e
+#define bluel		#435c8c
+#define blued		#306b8b
+#define magental	#4c9fa5
+#define magentad	#435c8c
+#define cyanl		#4c9fa5
+#define cyand		#4c9fa5
+#define whitel		#9cc7cd
+#define whited		#9cc7cd
+
 !!Solarized
 !#define blackd		#073642
 !#define blackl		#002b36
@@ -17,60 +35,6 @@
 !#define cyanl		#93a1a1
 !#define whited		#eee8d5
 !#define whitel		#fdf6e3
-
-!Ivory and Navy
-#define blackd		#032c36
-#define blackl		#065f73
-#define redd		#c2454e
-#define redl		#ef5847
-#define greend		#7cbf9e
-#define greenl		#a2d9b1
-#define yellowd		#8a7a63
-#define yellowl		#beb090
-#define blued		#555d71
-#define bluel		#61778d
-#define magentad	#ff5879
-#define magental	#ff99a1
-#define cyand		#44b5b1
-#define cyanl		#9ed9d8
-#define whited		#f2f1b9
-#define whitel		#f6f6c9
-
-!!McHearty
-!#define blackd		#272822
-!#define blackl		#75715e
-!#define redd		#f92672
-!#define redl		#f92672
-!#define greend		#a6e22e
-!#define greenl		#a6e22e
-!#define yellowd		#f4bf75
-!#define yellowl		#f4bf75
-!#define blued		#66d9ef
-!#define bluel		#66d9ef
-!#define magentad	#ae81ff
-!#define magental	#ae81ff
-!#define cyand		#a1efe4
-!#define cyanl		#a1efe4
-!#define whited		#f8f8f2
-!#define whitel		#f9f8f5
-
-!!Gruvbox Dark
-!#define blackd		#282828
-!#define blackl		#928374
-!#define redd		#cc241d
-!#define redl		#fb4934
-!#define greend		#98971a
-!#define greenl		#b8bb26
-!#define yellowd		#d79921
-!#define yellowl		#fabd2f
-!#define blued		#458588
-!#define bluel		#83a598
-!#define magentad	#b16286
-!#define magental	#d3869b
-!#define cyand		#689d6a
-!#define cyanl		#8ec07c
-!#define whited		#a89984
-!#define whitel		#ebdbb2
 
 *background:			blackd
 *foreground:			whitel
@@ -158,6 +122,7 @@ URxvt*background:		rgba:0000/0000/0000/cc90
 URxvt*foreground:		whitel
 URxvt*saveLines:		5000
 URxvt*useColor:			true
+URxvt*internalBorder:		80
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines
 ! URxvt*inheritPixmap:            true
